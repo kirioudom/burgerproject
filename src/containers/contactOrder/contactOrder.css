@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    
+}
+.container form{
+    width: 45%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    box-shadow: 0px 0px 10px grey;
+    margin-bottom: 20px;
+}
+.container form div{
+    width: 70%;
+}
+.container input{
+    display: block;
+    width: 100%;
+}
+
+.btnBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btnBar > button{
+    flex: 1 0 45%
+}
+
+@media (max-width:600px){
+    .container form{
+        width: 80%
+    }
+}
